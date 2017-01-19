@@ -15,4 +15,9 @@ My personal android QA notes
   
 - `references`: [Atomic access] (https://docs.oracle.com/javase/tutorial/essential/concurrency/atomic.html)
 
+2. **square image with width = screenWidth:** just provide width, height pixel same as device resolution
 
+- xxhdpi: 1080 x 1080
+- xhdpi: 720 x 1080 
+- hdpi: 540 x 540
+- mdpi: 360 x 360 
