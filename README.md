@@ -1,7 +1,7 @@
 # AndroidNotes
 My personal android QA notes
 
-1. **volatile** syntax
+**1. volatile** syntax
 
 - `pros`:
   + declared to avoid memory consistency errors
@@ -15,7 +15,7 @@ My personal android QA notes
   
 - `references`: [Atomic access] (https://docs.oracle.com/javase/tutorial/essential/concurrency/atomic.html)
 
-2. **square image with width = screenWidth:** just provide width, height pixel same as device resolution
+**2. square image with width = screenWidth:** just provide width, height pixel same as device resolution
 
 - xxhdpi: 1080 x 1080
 - xhdpi: 720 x 1080 
