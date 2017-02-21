@@ -25,14 +25,14 @@ My personal android QA notes
 **3. anroid storage**
 - `internal storage`
   + app access only with MODE_PRIVATE, other apps are able to access if no MODE_PRIVATE declared and also need to know packageName/fileName
-  + getFileDir(), getCacheDir()
+  + `getFileDir()`, `getCacheDir()`
   + deleted when user uninstalled app.
   + should manually delete cache files.
   
 - `external storage`
-  + public files: getExternalStoragePublicDirectory(): not be delete when user uninstalled app.
-  + private files: getExternalFileDir(): deleted when user uninstalled app.
-  + should use directory API such as DIRECTORY_PICTURES, etc.
+  + public files: `getExternalStoragePublicDirectory()` not be delete when user uninstalled app.
+  + private files: `getExternalFileDir()` deleted when user uninstalled app.
+  + should use directory API such as `DIRECTORY_PICTURES`, etc.
   
 - `references`: [Android developer] (https://developer.android.com/training/basics/data-storage/files.html)
 
