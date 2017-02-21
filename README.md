@@ -21,3 +21,19 @@ My personal android QA notes
 - xhdpi: 720 x 1080 
 - hdpi: 540 x 540
 - mdpi: 360 x 360 
+
+**3. anroid storage**
+- `internal storage`
+  + app access only with MODE_PRIVATE, other apps are able to access if no MODE_PRIVATE declared and also need to know packageName/fileName
+  + getFileDir(), getCacheDir()
+  + deleted when user uninstalled app.
+  + should manually delete cache files.
+  
+- `external storage`
+  + public files: getExternalStoragePublicDirectory(): not be delete when user uninstalled app.
+  + private files: getExternalFileDir(): deleted when user uninstalled app.
+  + should use directory API such as DIRECTORY_PICTURES, etc.
+  
+- `references`: [Android developer] (https://developer.android.com/training/basics/data-storage/files.html)
+
+**4. 
