@@ -13,7 +13,7 @@ My personal android QA notes
   + it not only sees the lastest change, but also the side effect of the code led up the change
   + need more care by developer
   
-- `references`: [Atomic access] (https://docs.oracle.com/javase/tutorial/essential/concurrency/atomic.html)
+- `references`: [Atomic access](https://docs.oracle.com/javase/tutorial/essential/concurrency/atomic.html)
 
 **2. square image with width = screenWidth:** just provide width, height pixel same as device resolution
 
@@ -34,6 +34,6 @@ My personal android QA notes
   + private files: `getExternalFileDir()` deleted when user uninstalled app.
   + should use directory API such as `DIRECTORY_PICTURES`, etc.
   
-- `references`: [Android developer] (https://developer.android.com/training/basics/data-storage/files.html)
+- `references`: [Android developer](https://developer.android.com/training/basics/data-storage/files.html)
 
-**4. 
+**4. **
