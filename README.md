@@ -36,4 +36,4 @@ My personal android QA notes
   
 - `references`: [Android developer](https://developer.android.com/training/basics/data-storage/files.html)
 
-**4. **
+**4.**
